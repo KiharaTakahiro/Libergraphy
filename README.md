@@ -21,8 +21,8 @@ uvicorn main:app --reload
 http://localhost:8000/docs
 
 ## 参考になるサイト
-[PEP8](https://pep8-ja.readthedocs.io/ja/latest/)
-[FastApi](https://fastapi.tiangolo.com/ja/)
+* [PEP8](https://pep8-ja.readthedocs.io/ja/latest/)
+* [FastApi](https://fastapi.tiangolo.com/ja/)
 
 # フロントエンド
 ## 環境構築
@@ -38,9 +38,9 @@ npm run dev
 ```
 
 ## 参考になるサイト
-[vite](https://ja.vitejs.dev/guide/)
-[script setup](https://v3.ja.vuejs.org/api/sfc-script-setup.html#typescript-%E3%81%AE%E3%81%BF%E3%81%AE%E6%A9%9F%E8%83%BD)
-[Tailwind CSS](https://tailwindcss.jp/docs/installation)
+* [vite](https://ja.vitejs.dev/guide/)
+* [script setup](https://v3.ja.vuejs.org/api/sfc-script-setup.html#typescript-%E3%81%AE%E3%81%BF%E3%81%AE%E6%A9%9F%E8%83%BD)
+* [Tailwind CSS](https://tailwindcss.jp/docs/installation)
 
 # テストコード
 ## 環境構築
@@ -60,4 +60,4 @@ npx cypress open
 ※1例で上記の通り画面を出したが、実施したいテストのjsを押下する
 
 ## 参考になるサイト
-[cypress](https://www.cypress.io/)
+* [cypress](https://www.cypress.io/)
