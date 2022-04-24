@@ -6,7 +6,6 @@
       articleOverView: String;
       articleDetailUrl: String;
   }>();
-
 </script>
 
 <template>
@@ -19,10 +18,7 @@
       <h2 class="text-gray-800 text-lg font-semibold mb-2">
         <a :href="articleDetailUrl" class="hover:text-indigo-500 active:text-indigo-600 transition duration-100">{{ articleTitle }}</a>
       </h2>
-
       <p class="text-gray-500 mb-8">{{ articleOverView }}</p>
-
     </div>
   </div>
-
 </template>

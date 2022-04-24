@@ -1,3 +1,12 @@
+<script setup lang='ts'>
+  import Title from '../components/Title.vue';
+  import Article from '../components/Article.vue';
+  import {callApi} from '../utils';
+
+  // 記事一覧の取得
+  const articles = await callApi("/get/articles");
+</script>
+
 <template>
   <Title
     blogTitle="記事一覧"
@@ -13,12 +22,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang='ts'>
-  import Title from '../components/Title.vue';
-  import Article from '../components/Article.vue';
-  import {callApi} from '../utils'
-
-  const articles = await callApi("/get/articles");
-
-</script>
